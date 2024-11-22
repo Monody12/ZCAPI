@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ZCAPI</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="readGpio">读取</string>
+
+    <string name="siyin">主板丝印</string>
+    <string name="point">引脚组</string>
+    <string name="num">引脚号</string>
+    <string name="gpioStatus">引脚状态</string>
+    <string name="setStatus">设置引脚</string>
+    <string name="setMode">设置模式</string>
+</resources>

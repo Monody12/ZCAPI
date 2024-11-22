@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <TextView
+		android:id="@+id/head"
+    	android:layout_width="120dp"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:text="@string/siyin"
+    	android:textSize="30dp"/>
+    
+    <TextView 
+    	android:layout_width="13dp"
+    	android:layout_height="0dp"
+        android:layout_weight="1"/>
+    
+    <TextView
+		android:id="@+id/point"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:text="@string/point"
+    	android:textSize="30dp"/>
+    
+    <TextView 
+    	android:layout_width="10dp"
+    	android:layout_height="0dp"
+        android:layout_weight="1"/>
+    
+    <TextView
+		android:id="@+id/num"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:text="@string/num"
+    	android:textSize="30dp"/>
+    
+    <TextView 
+    	android:layout_width="0dp"
+    	android:layout_height="0dp"
+        android:layout_weight="1"/>
+    
+    <TextView
+		android:id="@+id/gpioStatus"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:text="@string/gpioStatus"
+    	android:textSize="30dp"/>
+    
+    <TextView 
+    	android:layout_width="0dp"
+    	android:layout_height="0dp"
+        android:layout_weight="1"/>
+    
+    <TextView
+		android:id="@+id/setStatus"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:text="@string/setStatus"
+    	android:textSize="30dp"/>
+    
+    <TextView 
+    	android:layout_width="0dp"
+    	android:layout_height="0dp"
+        android:layout_weight="1"/>
+    
+    <TextView
+		android:id="@+id/setMode"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:text="@string/setMode"
+    	android:textSize="30dp"/>
+    
+    <TextView 
+    	android:layout_width="0dp"
+    	android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
